@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Config/Config.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Unity/BaseStation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Unity/Message.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Unity/Node.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Unity/Sensor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Utils/AlgoUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Utils/CalUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Utils/DataUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Utils/GraphUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Utils/GuiUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Utils/PanelUtil.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
