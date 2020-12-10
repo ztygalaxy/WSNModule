@@ -20,7 +20,7 @@ public class AlgoUtil {
         CalUtil.calCost(nodeList, (time % Config.slot));
         CalUtil.calGet(nodeList, (time % Config.slot));
         CalUtil.updatePosition(nodeList, time);
-        CalUtil.stateInit(nodeList);
+//        CalUtil.stateInit(nodeList);
     }
 
     public static void main(String[] args) {

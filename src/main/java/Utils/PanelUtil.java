@@ -45,6 +45,11 @@ public class PanelUtil extends JPanel {
     }
 
     @Override
+    public void repaint() {
+        super.repaint();
+    }
+
+    @Override
     public void paint(Graphics g) {
         Graphics2D gg = (Graphics2D) g.create();
         for (Sensor sensor : sensorList) {
@@ -55,7 +60,7 @@ public class PanelUtil extends JPanel {
                 gg.setFont(new Font(null, Font.PLAIN, 10));
                 gg.drawString(String.valueOf(sensor.getnId()) + ":" + String.valueOf(sensor.getBattery()), (int) sensor.getnX() + 5, (int) sensor.getnY() + 5);
                 gg.setColor(Color.LIGHT_GRAY);
-                if (sensor.getWakeFlag()>0)
+                if (sensor.getWakeFlag()>=0)
                     gg.drawOval((int) (sensor.getnX() - sensor.getnSeradio()), (int) (sensor.getnY() - sensor.getnSeradio()), (int) sensor.getnSeradio() * 2, (int) sensor.getnSeradio() * 2);
             } else {
                 gg.setColor(Color.RED);
